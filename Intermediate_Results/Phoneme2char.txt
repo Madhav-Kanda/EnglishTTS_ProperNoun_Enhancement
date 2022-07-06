@@ -1,0 +1,107 @@
+//Phoneme to letter & Hindi mapping
+AE	    a       अ
+AA	    aa      आ
+IH	    i       इ
+IY	    ee      ई
+UH	    u       उ
+UW	    oo      ऊ
+EH  	e	    ए
+EY      ai      ऐ
+AO      o       ओ
+OW      au	    औ
+R|IH    ri      ऋ
+
+//extras
+AH	    a       अ
+
+IX	    i       इ
+UX[3]	oo      ऊ
+EY      ai      ऐ	
+AW      au	    औ
+
+
+//Phoneme to letter mapping
+
+AE	    a       
+AX	    aa
+IH	    i       
+IY	    ee      
+UH	    u       
+UW	    oo      
+EH  	e
+AY      ai
+AO      o       
+OW      au
+R|IH    ri    
+
+Dict containing mapping of Hindi phonemes to English phonemes
+{'a': 'AE', 'aa': 'AX', 'i': 'IH', 'ee': 'IY', 'u': 'UH', 'oo': 'UW', 'e': 'EH', 'ai': 'AY', 'o': 'AO', 'au': 'OW', 'ri': 'R|IH'}
+
+----------------------------------------X-----------------------------------------------
+
+K	   k     क्
+K   kh    ख्
+G	   g     ग्
+G|HH   gh    घ्
+CH	   ch	 च्
+CH|HH  chh   छ्
+JH 	   j     ज्
+Z	   z     ज़्
+JH|HH  jh    झ
+T	   T     ट्
+T	   T    ठ्
+D	   D     ड्
+D|HH   Dh    ढ
+EN	   N     ण
+
+DX	   t     त
+TH	   th    थ्
+DH	   d     द
+D|HH   dh    ध
+N	   n     न्
+
+P	   p     प्
+F	   ph    फ्
+B	   b	 ब्
+B|HH   bh    भ
+M	   m     म् 
+Y	   y     य् 
+R	   r     र्
+L	   l     ल्
+V	   v     व्
+WH	   v     व्
+
+SH	   sh    श्
+SH	   sh    ष्
+S	   s     स्
+H   h     ह्
+
+
+//Dict for the conversion of english phonemes to hindi phonemes
+{'k': 'K', 'kh': 'K|HH', 'g': 'G', 'gh': 'G|HH', 'ch': 'CH', 'chh': 'CH|HH', 'j': 'JH', 'z': 'Z', 'jh': 'JH|HH', 'T': 'T', 'Th': 'TH', 'D': 'D', 'Dh': 'D|HH', 'N': 'EN', 't': 'DX', 'th': 'TH', 'd': 'DH', 'dh': 'D|HH', 'n': 'N', 'p': 'P', 'ph': 'F', 'b': 'B', 'bh': 'B|HH', 'm': 'M', 'y': 'Y', 'r': 'R', 'l': 'L', 'v': 'WH', 'sh': 'SH', 's': 'S', 'h': 'H[3]'}
+
+Problem with श् & ष्
+
+
+
+//extras
+ZH	   za    ज़
+DX	   T     ट्
+T	   t     त्
+EN	   n     न्
+NX[3]  n     न्
+EM	   m     म् 
+ER	   r     र्
+EL	   la    ल
+W	   v     व्
+HH 	   h     ह्
+
+
+//doubts
+AXR[3]	ar  अर्
+NX or NG[3]	इन्ग
+Q	uh-oh
+
+
+
+extralist=["क","ख","ग","घ","च","छ","ज","झ","ट","ठ","ड","ढ","ण","त","थ","द","ध","न","प","फ","ब","भ","म","य","र","ल","ष","स","व","श","ह"]
